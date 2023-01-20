@@ -1,0 +1,19 @@
+
+body{
+  background-color: azure;
+  }
+.feature1 {
+  display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+    margin-bottom: 8em;
+    margin-left: 6em;
+  }
+  .feature1 img {
+    width: 25em;
+  }
+  .feature1 .content1 {
+      font-family: 'Ubuntu',sans-serif;
+    text-align: right;
+    width: 25em;
+  }
